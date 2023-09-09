@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    x := rand.Intn(10000)
+    x := rand.Intn(9999)
     cmd := exec.Command("say", strconv.Itoa(x))
     cmd.Output()
     fmt.Println(strconv.Itoa(x))
